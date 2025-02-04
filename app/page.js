@@ -58,7 +58,8 @@ export default function Page() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
-              Ok yay!!! Happy Valentine's Day! ❤️
+              Ok yay!!! "Does this mean I get to spoil you on Valentine’s Day?"
+              💕
             </motion.div>
           </motion.div>
         ) : (
@@ -83,7 +84,7 @@ export default function Page() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              Will you be my Valentine?
+              Will you be my Valentine? 😉
             </motion.h1>
             <div className="flex flex-wrap gap-4 justify-center">
               <motion.button
